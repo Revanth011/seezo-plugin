@@ -1,0 +1,27 @@
+{
+  "name": "vite-project",
+  "type": "module",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.33",
+    "@types/chrome": "^0.0.323",
+    "@types/node": "^22.15.19",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^4.6.3",
+    "vite": "^5.2.0",
+    "vite-plugin-static-copy": "^3.0.0"
+  }
+}

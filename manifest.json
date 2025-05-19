@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "GarudaBlaze",
+  "version": "0.1.0",
+  "description": "Lighting Up Hidden Risks - Performs automated security design reviews on any given screen.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://generativelanguage.googleapis.com/*"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "src/favicon.svg",
+      "48": "src/favicon.svg",
+      "128": "src/favicon.svg"
+    }
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "icons": {
+    "16": "src/favicon.svg",
+    "48": "src/favicon.svg",
+    "128": "src/favicon.svg"
+  }
+}

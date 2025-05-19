@@ -1,6 +1,5 @@
 # GarudaBlaze
-
-**Tagline:** Lighting Up Hidden Risks
+Lighting Up Hidden Risks
 
 GarudaBlaze is a browser extension that performs automated security design reviews on any given screen. It leverages the Gemini LLM for intelligent analysis and provides instant feedback on high-level security risks and sensitive assets present on web pages.
 
